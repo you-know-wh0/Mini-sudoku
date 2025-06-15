@@ -93,4 +93,5 @@ def play_sudoku():
                 print("This cell is already filled. Try another one.")
         else:
             print("Invalid input. Try again.")
-play_sudoku()
+if __name__ == "__main__":
+    play_sudoku()
